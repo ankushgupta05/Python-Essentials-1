@@ -22,3 +22,17 @@
 1.1.4 Machine language vs. high-level language
 1.1.5 Compilation vs. Interpretation
 ```
+
+
+1.2 Section 2 – Introduction to Python
+```
+1.2.1 Python – a tool, not a reptile
+1.2.2 Who created Python?
+1.2.3 A hobby programming project
+1.2.4 What makes Python so special?
+1.2.5 Python rivals?
+1.2.6 Where can we see Python in action?
+1.2.7 Why not Python?
+1.2.8 There is more than one Python
+1.2.9 Python implementations
+```
