@@ -36,3 +36,20 @@
 1.2.8 There is more than one Python
 1.2.9 Python implementations
 ```
+
+1.3 Section 3 – Downloading and Installing Python
+```
+1.3.1 Begin your Python journey
+1.3.2 How to download, install, and configure Python
+1.3.3 Starting your work with Python
+1.3.4 Your very first program before your first program...
+1.3.5 How to spoil and fix your code
+```
+
+
+
+
+
+
+
+
