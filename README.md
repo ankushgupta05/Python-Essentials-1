@@ -135,6 +135,15 @@ Ye sabse stable, popular aur widely supported version hai
 
 
 
+## 🧠 Code Levels Explained (with Example)
+
+| **Level**         | **Code Example**              | **Who Understands It**        | **Description** |
+|-------------------|-------------------------------|-------------------------------|------------------|
+| **High-Level Code** | `print("Hello")` (Python)     | 👩‍💻 Humans (Programmers)       | Easy to read/write. Used in Python, Java, C, etc. |
+| **Assembly Code**   | `MOV AL, 61h`                 | 🧑‍🔧 Assembly Programmers       | Low-level readable commands close to machine code. |
+| **Machine Code**    | `10110000 01100001`           | 🧠 CPU (Processor)             | Binary (0s and 1s) — directly executed by the computer hardware. |
+
+
 
 
 
