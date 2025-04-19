@@ -78,6 +78,13 @@ print("Hello World")  # Parentheses required
 ```
 
 
+# Note :- CPython kya hai
+```
+CPython is the original and official implementation of the Python programming language.
+It is written in the C language and maintained by the Python Software Foundation (PSF).
+Jab aap terminal me python ya python3 likhte ho, aap mostly CPython hi chala rahe hote ho.
+Ye sabse stable, popular aur widely supported version hai
+```
 
 
 
