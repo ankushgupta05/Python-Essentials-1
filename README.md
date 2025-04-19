@@ -107,7 +107,7 @@ Ye sabse stable, popular aur widely supported version hai
 
 
 ## Python Implementations Comparison
-
+```
 | **Implementation** | **Purpose / Use Case** | **Special Features** | **Example** |
 |--------------------|------------------------|-----------------------|-------------|
 | **CPython (C-language Python)** | ✅ Most commonly used and official version of Python<br>✅ Suitable for everyday development like web development, scripting, automation, etc. | 🔹 Written in C programming language<br>🔹 Maintained by Python Software Foundation (PSF)<br>🔹 Supports almost all Python libraries and tools | 📌 Basic Python usage:<br>`print("Hello from CPython")`<br>📌 Used in: Django, Flask, Jupyter, etc. |
@@ -115,11 +115,24 @@ Ye sabse stable, popular aur widely supported version hai
 | **Jython (Java Python)** | ✅ Lets you write Python code that runs on Java Virtual Machine (JVM)<br>✅ Useful when you want to integrate with Java code or use Java libraries | 🔹 Written in Java language<br>🔹 Allows Python scripts to interact with Java classes, GUIs, frameworks<br>🔹 Works well in Java-based enterprise environments | 📌 Java GUI using Python:<br>```python<br>from java.awt import Frame<br>f = Frame("Hello Jython")<br>f.setVisible(True)``` |
 | **PyPy (Python Python – Just-in-Time Compiler)** | ✅ Best for CPU-heavy and performance-critical applications like games, simulations, web scraping | 🔹 Uses JIT (Just-In-Time) compiler to run Python code much faster<br>🔹 No code change needed — just use PyPy instead of Python<br>🔹 Compatible with most Python 3 code | 📌 Run script with PyPy:<br>`pypy myscript.py`<br>📌 Used for: speed optimization without code rewriting |
 | **MicroPython (Microcontroller Python)** | ✅ Used in embedded systems, IoT (Internet of Things), hardware-level programming<br>✅ Runs on tiny devices like sensors, boards, microcontrollers | 🔹 Lightweight Python interpreter (very small memory footprint)<br>🔹 Works on microchips like ESP32, Raspberry Pi Pico, Arduino<br>🔹 Designed for real-time low-power devices | 📌 Control LED on ESP32:<br>```python<br>from machine import Pin<br>led = Pin(2, Pin.OUT)<br>led.value(1)```<br>📌 Used in: Smart home gadgets, Wearables, Sensors |
+```
 
 
 
 
 
+
+
+
+## ✅ What Makes a Language? – Easy Table
+```
+| **Element**       | **Meaning (Simple)**                            | **Examples** |
+|-------------------|--------------------------------------------------|--------------|
+| **Alphabet**       | Basic letters or symbols used to form words      | 🔤 English: A–Z<br>🔢 Programming: A–Z, 0–9, +, -, *, /, () etc. |
+| **Lexis (Words)**  | Valid words from the language's dictionary       | ✅ `computer` is a word<br>❌ `cmoptrue` is not<br>✅ Python: `print`, `if` |
+| **Syntax**         | Rules for writing correct sentence structure     | ✅ `print("Hello")`<br>❌ `print "Hello"` (Wrong in Python 3) |
+| **Semantics**      | Logical meaning of a sentence                    | ✅ `"I ate a doughnut"`<br>❌ `"A doughnut ate me"` (Funny but illogical) |
+```
 
 
 
