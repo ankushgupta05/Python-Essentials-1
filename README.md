@@ -3,6 +3,8 @@
 
 
 
+
+
 1.0 Welcome to Python Essentials 1
 ```
 1.0.1 Learn Python – the language of today and tomorrow
@@ -48,6 +50,32 @@
 
 
 
+
+
+
+# Note:- CPython kya hai?
+ ```
+CPython is the implementation of Python language — basically, it’s the actual software that runs your Python code.
+
+CPython is written in C language, iska naam bhi isi wajah se "CPython" rakha gaya hai.
+
+Jab aap terminal me python ya python3 likh ke code run karte ho, toh aap asal me CPython interpreter hi chala rahe hote ho.
+
+Ye implementation Python ke rules (syntax, behavior) ko follow karta hai — jaise PSF (Python Software Foundation) ne define kiya hai.
+
+💡 Think of CPython as the engine that powers your Python programs.
+```
+
+
+# Note:- Python 2
+```
+print "Hello World"  # No parentheses
+```
+
+# Note:- Python 3
+```
+print("Hello World")  # Parentheses required
+```
 
 
 
