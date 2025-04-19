@@ -146,6 +146,20 @@ Ye sabse stable, popular aur widely supported version hai
 
 
 
+## Module 1 Sabhi Vikalp Question
+
+| **Question** | **Answer** | **Explanation** | **Example** |
+|--------------|------------|-----------------|-------------|
+| What do you call a command-line interpreter which lets you interact with your OS and execute Python commands and scripts? | A console | A console (or terminal) is where you type commands and interact with the system. It allows you to run Python code. | In Terminal (macOS/Linux) or Command Prompt (Windows), you type `python myscript.py` to run Python code. |
+| What is CPython? | It's the default, reference implementation of Python, written in the C language | CPython is the most widely used version of Python, implemented in C, and is maintained by the Python Software Foundation (PSF). | If you install Python from python.org, you are using CPython. |
+| What is the expected behavior of the following program? `print("Hello!")` | The program will output `Hello!` to the screen | The print function outputs the string to the screen. The quotation marks will not appear in the output. | Output: `Hello!` |
+| What do you call a file containing a program written in a high-level programming language? | A source file | A source file is where the program code is written in a high-level language (like Python). | A Python file is a `.py` file, such as `my_program.py`. |
+| What is true about compilation? (Select two answers) | The code is converted directly into machine code executable by the processor<br>It tends to be faster than interpretation | Compilation converts code into machine-readable instructions and usually results in faster execution than interpretation. | Example: `gcc program.c -o program` compiles C code into an executable. |
+| What is a script? | It's a text file that contains instructions which make up a Python program | A script is a file that contains written code, typically to automate tasks or execute a sequence of instructions. | Example: A Python script named `example.py` with `print("Hello")`. |
+| What is the best definition of a high-level programming language? | It's a language that allows you to write instructions in a human-readable way | High-level languages are abstracted from the hardware, making them easier to understand and use. | Python, Java, and JavaScript are high-level languages. |
+| What is machine code? | It's the lowest-level code that is directly executed by the CPU | Machine code consists of binary instructions that the processor can directly execute without any further translation. | `10110000 01100001` is machine code, interpreted by the CPU. |
+| What is true about interpretation? (Select two answers) | The source code is translated line by line<br>You don’t need a separate file to distribute | An interpreter runs the program directly without compiling it into machine code, translating line by line. | Example: Running `python script.py` directly without compiling. |
+| What is the expected behavior of the following program? `x = 5 + 3`<br>`print(x)` | The program will output 8 to the screen | The variable `x` will store the result of `5 + 3`, and `print(x)` will output the value of `x`. | Output: `8` |
 
 
 
