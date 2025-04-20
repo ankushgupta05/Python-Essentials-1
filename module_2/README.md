@@ -307,6 +307,37 @@ because
 12 - 9.0 gives 3.0.
 
 
+
+7)
+0%0
+
+output :-
+error
+
+8)
+1%0
+
+output :-
+error
+
+
+```
+
+
+
+### Imp concept
+
+```
+1)
+print(9 % 6 % 2)
+
+// output
+1
+
+Note :-
+The result should be 1. This operator has left-sided binding.
+
+
 ```
 
 
