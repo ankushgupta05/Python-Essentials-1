@@ -1,13 +1,15 @@
-## IMG Programe
+## Module 2.1
 
-# Built-in F() in Python
+
+### IMG Programe
+#### Built-in F() in Python
 ``
 //  Python 3.8 comes with 69 built-in functions.
 https://docs.python.org/3/library/functions.html
 ``
 
 
-# sep and end ka concept
+#### sep and end ka concept
 ```
 // 1) code
 print("My", "name", "is", sep="_", end="*")
@@ -76,6 +78,10 @@ SyntaxError: invalid syntax
 // Line 5 will raise SyntaxError, because the ' symbol in the Greg's book. string requires an escape character.
 ```
 
+
+
+
+## Module 2.2
 
 
 
