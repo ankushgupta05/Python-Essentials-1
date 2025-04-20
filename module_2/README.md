@@ -144,3 +144,38 @@ False
 
 
 
+
+### 📘 Python Literals and Number Systems  
+
+#### 🔹 What is a Literal?
+
+A **literal** is a fixed value written directly in the code.  
+It represents data like numbers, strings, or boolean values that **do not change**.  
+Literals are the most basic building blocks in any Python program.
+
+---
+
+##### 📌 Python Literals Table
+
+| **Type**                | **Description**                                                                | **Example**                             |
+|-------------------------|--------------------------------------------------------------------------------|-----------------------------------------|
+| Numeric Literal         | Fixed numbers without quotes                                                   | `123`, `-5`                              |
+| String Literal          | Text enclosed in quotes                                                        | `"Hello"`, `'Python'`                   |
+| Binary Number           | Base-2 numbers (uses `0b` prefix)                                              | `0b1010` → `10`                          |
+| Octal Number            | Base-8 numbers (uses `0o` prefix)                                              | `0o10` → `8`                             |
+| Hexadecimal Number      | Base-16 numbers (uses `0x` prefix, includes A-F)                               | `0x1A` → `26`                            |
+| Integer (int)           | Whole number, no decimal part                                                  | `256`, `-1`                              |
+| Float (floating-point)  | Number with a decimal/fractional part                                          | `1.27`, `-3.14`                          |
+| String with Apostrophe  | Use escape character or opposite quotes                                        | `'I\'m happy.'`, `"I'm happy."`         |
+| String with Quotes      | Wrap double quotes in single quotes                                            | `'He said "Python"'`                    |
+| Boolean                 | Represents truth values                                                        | `True`, `False`                         |
+| Boolean as Number       | `True` is `1`, `False` is `0`                                                  | `int(True)` → `1`, `int(False)` → `0`   |
+| None Literal            | Represents absence of value (`NoneType`)                                       | `value = None`                          |
+
+---
+
+> ✅ This table summarizes the **common types of literals** in Python, along with clear examples for quick understanding.
+
+
+
+
