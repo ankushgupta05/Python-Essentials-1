@@ -338,6 +338,13 @@ Note :-
 The result should be 1. This operator has left-sided binding.
 
 
+2)
+print(2 ** 2 ** 3)
+
+// outtput
+256
+
+The result clearly shows that the exponentiation operator uses right-sided binding.
 ```
 
 
