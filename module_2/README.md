@@ -401,9 +401,9 @@ print(2 * 3 % 5)
 
 
 
-# 📘 Section 2.3.4 – Python Operators Summary
+### 📘 Section 2.3.4 – Python Operators Summary
 
-## ✅ Key Takeaways Table
+#### ✅ Key Takeaways Table
 
 | **#** | **Concept**               | **Explanation**                                                                                   | **Example**                                |
 |------:|---------------------------|---------------------------------------------------------------------------------------------------|--------------------------------------------|
@@ -426,6 +426,28 @@ print(2 * 3 % 5)
 |      | `+`, `-` (binary)          | Addition, Subtraction (lowest)                                                                    | `4 + 2`, `5 - 1`                            |
 | 7    | **Parentheses**            | Subexpressions in parentheses are always calculated **first**                                     | `15 - 1 * (5 * (1 + 2))` → `0`              |
 | 8    | **Right-Side Binding**     | `**` binds **right-to-left**                                                                      | `2 ** 2 ** 3` → `2 ** (2 ** 3)` → `256`     |
+
+
+
+
+
+
+
+
+
+### Quize of 
+
+```
+1)
+print((-2 / 4), (2 / 4), (2 // 4), (-2 // 4))
+
+// output
+-0.5 0.5 0 -1
+
+2)
+
+```
+
 
 
 
