@@ -2,6 +2,7 @@
 
 # Built-in F() in Python
 ``
+//  Python 3.8 comes with 69 built-in functions.
 https://docs.python.org/3/library/functions.html
 ``
 
