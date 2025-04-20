@@ -1,10 +1,7 @@
 # Python-Essentials-1
 
 
-
-
-
-
+# Module 1
 1.0 Welcome to Python Essentials 1
 ```
 1.0.1 Learn Python – the language of today and tomorrow
