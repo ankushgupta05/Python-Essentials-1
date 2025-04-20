@@ -361,3 +361,32 @@ print(-(3 ** 2))
 
 
 
+
+### ⚙️ Python Operators (Truncated List - Basic Overview)
+
+> Operators are **symbols** used to perform operations on variables and values.  
+> Below is a **partial list** of Python operators, ordered by **priority (precedence)** — from **highest (1)** to **lowest (4)**.
+
+| **Priority** | **Operator**  | **Type**         | **Description**                                    | **Example**                   |
+|--------------|---------------|------------------|----------------------------------------------------|-------------------------------|
+| 1 (Highest)  | `**`          | Arithmetic       | Exponentiation                                     | `2 ** 3` → `8`                |
+| 2            | `+`, `-`      | Unary Arithmetic | Unary plus and minus (sign operators)             | `+5`, `-10`                   |
+| 3            | `*`, `/`, `%` | Arithmetic       | Multiplication, Division, Modulus                  | `4 * 2` → `8`, `10 % 3` → `1` |
+| 4 (Lowest)   | `+`, `-`      | Arithmetic       | Binary Addition, Subtraction                       | `5 + 3` → `8`, `7 - 2` → `5`  |
+
+---
+
+#### 🔹 Notes:
+- **Unary operators** like `+` and `-` apply to a single value (e.g., `-x`).
+- **Binary operators** like `+`, `-`, `*`, `/` apply between two values.
+- Operators listed earlier in the table have **higher precedence** and are evaluated **first**.
+- The precedence affects how complex expressions are evaluated without parentheses.
+
+---
+
+📘 **We will expand this table** as you learn more operators like comparison (`>`, `<`), logical (`and`, `or`), assignment (`=`, `+=`), etc.
+
+
+
+
+
