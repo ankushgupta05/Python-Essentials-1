@@ -119,8 +119,26 @@ print("I like \"Monty Python\"")
 // output
 I like "Monty Python"
 
+
+
+print('I like "Monty Python"')   // here do not need to escape but this code is also working.
+
+// output :-
+I like "Monty Python"
+
 ```
 
+
+### Boolean
+```
+// question
+print(True > False)
+print(True < False)
+
+// output :-
+True
+False
+```
 
 
 
