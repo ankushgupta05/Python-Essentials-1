@@ -28,5 +28,54 @@ Programming***Essentials***in...Python
 
 
 
+Quicz of 2.1.15 
+```
+// 1)
+print("My\nname\nis\nBond.", end=" ")
+print("James Bond.")
+
+// output
+My
+name
+is
+Bond. James Bond.
+
+
+
+
+// 2)
+print(sep="&", "fish", "chips")
+
+
+// output  error
+  File "main.py", line 1
+    print(sep="&", "fish", "chips")
+                  ^
+SyntaxError: positional argument follows keyword argument
+
+
+
+
+// 3)
+
+print('Greg\'s book.')
+print("'Greg's book.'")
+print('"Greg\'s book."')
+print("Greg\'s book.")
+print('"Greg's book."')
+
+
+// output
+
+  File "main.py", line 5
+    print('"Greg's book."')
+                 ^
+SyntaxError: invalid syntax
+
+
+// Line 5 will raise SyntaxError, because the ' symbol in the Greg's book. string requires an escape character.
+```
+
+
 
 
