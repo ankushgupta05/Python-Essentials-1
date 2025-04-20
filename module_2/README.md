@@ -179,3 +179,40 @@ Literals are the most basic building blocks in any Python program.
 
 
 
+
+### Quize of 2.2.8
+```
+
+Question 1: What types of literals are the following two examples?
+"Hello ", "007"
+
+// output
+They're both strings/string literals.
+
+
+Question 2: What types of literals are the following four examples?
+"1.5", 2.0, 528, False
+
+// output
+The first is a string, the second is a numerical literal (a float), the third is a numerical literal (an integer), and the fourth is a boolean literal.
+
+
+Question 3: What is the decimal value of the following binary number?
+1011
+// output
+It's 11, because (2**0) + (2**1) + (2**3) = 11
+
+```
+
+### oprator 2.3
+
+```
+print(2 ** 3)
+print(2 ** 3.)
+print(2. ** 3)
+print(2. ** 3.)
+
+```
+
+
+
