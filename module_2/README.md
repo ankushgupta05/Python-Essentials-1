@@ -212,6 +212,14 @@ print(2 ** 3.)
 print(2. ** 3)
 print(2. ** 3.)
 
+
+Note :-
+Remember: It's possible to formulate the following rules based on this result:
+
+when both ** arguments are integers, the result is an integer, too;
+when at least one ** argument is a float, the result is a float, too.
+This is an important distinction to remember.
+
 ```
 
 
