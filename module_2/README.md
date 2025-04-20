@@ -207,11 +207,20 @@ It's 11, because (2**0) + (2**1) + (2**3) = 11
 ### oprator 2.3
 
 ```
+
+1) 
 print(2 ** 3)
 print(2 ** 3.)
 print(2. ** 3)
 print(2. ** 3.)
 
+
+
+// output
+8
+8.0
+8.0
+8.0
 
 Note :-
 Remember: It's possible to formulate the following rules based on this result:
@@ -219,6 +228,25 @@ Remember: It's possible to formulate the following rules based on this result:
 when both ** arguments are integers, the result is an integer, too;
 when at least one ** argument is a float, the result is a float, too.
 This is an important distinction to remember.
+
+
+
+
+
+2)
+
+print(6 / 3)
+print(6 / 3.)
+print(6. / 3)
+print(6. / 3.)
+
+
+// output
+2.0
+2.0
+2.0
+2.0
+
 
 ```
 
