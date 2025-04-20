@@ -84,7 +84,7 @@ SyntaxError: invalid syntax
 ## Module 2.2
 
 ### IMG Programme
-``
+```
 //1) code inwhich we use scientific notation that is 'E' or 'e'. 
 print(3E8)
 
@@ -100,18 +100,21 @@ print(6.62607*(10)**-34)   //  that means 6.62607 x 10^34
 6.62607e-34
 
 
-
-
-
-// NOTE :- 'E' ya 'e' ke baad agar nahi written any digit then programme will give 10 zeros 
-like 
-1) print(11e7)
+// 3) print(11e7)
 // output :-  110000000.0
 
 
-2) print(11e)
+// 4) print(11e)
 // output :- 5.5e+21   matlab ki (5.5 X 10^21)
-``
+
+
+
+// code 5) 
+print(0.0000000000000000000001)
+
+// output
+1e-22
+```
 
 
 
