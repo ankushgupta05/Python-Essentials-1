@@ -290,6 +290,23 @@ The result is two negative twos. The real (not rounded) result is -1.5 in both c
 
 
 
+
+
+6)
+print(12 % 4.5)
+
+
+//output
+3.0
+
+because
+3.0 – not 3 but 3.0. The rule still works:
+
+12 // 4.5 gives 2.0,
+2.0 * 4.5 gives 9.0,
+12 - 9.0 gives 3.0.
+
+
 ```
 
 
