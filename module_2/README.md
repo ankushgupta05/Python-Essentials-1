@@ -345,6 +345,18 @@ print(2 ** 2 ** 3)
 256
 
 The result clearly shows that the exponentiation operator uses right-sided binding.
+
+
+
+3)
+print(-3 ** 2)
+print(-2 ** 3)
+print(-(3 ** 2))
+
+// output
+-9
+-8
+-9
 ```
 
 
