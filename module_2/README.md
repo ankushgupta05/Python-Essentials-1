@@ -104,12 +104,7 @@ print(6.62607*(10)**-34)   //  that means 6.62607 x 10^34
 // output :-  110000000.0
 
 
-// 4) print(11e)
-// output :- 5.5e+21   matlab ki (5.5 X 10^21)
-
-
-
-// code 5) 
+// code 4) 
 print(0.0000000000000000000001)
 
 // output
