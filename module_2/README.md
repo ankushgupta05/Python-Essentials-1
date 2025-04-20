@@ -111,6 +111,17 @@ print(0.0000000000000000000001)
 1e-22
 ```
 
+### strings 
+```
+1)
+print("I like \"Monty Python\"")
+
+// output
+I like "Monty Python"
+
+```
+
+
 
 
 
