@@ -398,3 +398,35 @@ print(2 * 3 % 5)
 
 
 
+
+
+
+# 📘 Section 2.3.4 – Python Operators Summary
+
+## ✅ Key Takeaways Table
+
+| **#** | **Concept**               | **Explanation**                                                                                   | **Example**                                |
+|------:|---------------------------|---------------------------------------------------------------------------------------------------|--------------------------------------------|
+| 1    | **Expression**             | A combination of values, variables, and operators that evaluates to a result.                     | `1 + 2` → `3`                               |
+| 2    | **Operator**               | Special symbols that perform operations on values.                                                | `x * y` → Multiplies `x` and `y`           |
+| 3    | **Arithmetic Operators**   | `+`, `-`, `*`, `/`, `%`, `**`, `//`                                                               | See below                                  |
+|      | `+`                        | Addition                                                                                          | `3 + 2` → `5`                               |
+|      | `-`                        | Subtraction                                                                                       | `5 - 3` → `2`                               |
+|      | `*`                        | Multiplication                                                                                    | `4 * 2` → `8`                               |
+|      | `/`                        | Division (always returns float)                                                                   | `5 / 2` → `2.5`                             |
+|      | `%`                        | Modulus (remainder)                                                                               | `5 % 2` → `1`                               |
+|      | `**`                       | Exponentiation (power)                                                                            | `2 ** 3` → `8`                              |
+|      | `//`                       | Floor division (rounds down to nearest whole number)                                              | `3 // 2.0` → `1.0`                          |
+| 4    | **Unary Operator**         | Operates on **one** operand                                                                       | `-1`, `+3`                                  |
+| 5    | **Binary Operator**        | Operates on **two** operands                                                                      | `4 + 5`, `12 % 5`                           |
+| 6    | **Operator Precedence**    | Order of operation execution from **highest** to **lowest**                                       | See next row                               |
+|      | `**`                       | Exponentiation (highest)                                                                          | `2 ** 3` → `8`                              |
+|      | `+`, `-` (unary)           | Unary sign                                                                                         | `-2`, `+3`, `4 ** -1` → `0.25`              |
+|      | `*`, `/`, `%`              | Multiplication, Division, Modulus                                                                 | `10 / 2`, `6 % 4`                           |
+|      | `+`, `-` (binary)          | Addition, Subtraction (lowest)                                                                    | `4 + 2`, `5 - 1`                            |
+| 7    | **Parentheses**            | Subexpressions in parentheses are always calculated **first**                                     | `15 - 1 * (5 * (1 + 2))` → `0`              |
+| 8    | **Right-Side Binding**     | `**` binds **right-to-left**                                                                      | `2 ** 2 ** 3` → `2 ** (2 ** 3)` → `256`     |
+
+
+
+
