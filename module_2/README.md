@@ -273,6 +273,23 @@ print(6. // 4)
 // output
 1
 1.0
+
+5) verry important
+print(-6 // 4)
+print(6. // -4)
+
+// output
+-2
+-2.0
+
+
+
+Note :-
+Note: some of the values are negative. This will obviously affect the result. But how?
+The result is two negative twos. The real (not rounded) result is -1.5 in both cases. However, the results are the subjects of rounding. The rounding goes toward the lesser integer value, and the lesser integer value is -2, hence: -2 and -2.0.
+
+
+
 ```
 
 
