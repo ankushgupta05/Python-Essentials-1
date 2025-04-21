@@ -496,9 +496,9 @@ Tu ekdum sahi soch raha hai — bas assignment wale case mein expression pehle e
 | 4            | The 0o prefix means that the number after it is denoted as:                                     | octal              | `print(0o10)`                                                                                             |
 | 5            | The ** operator:                                                                                | performs exponentiation | `print(2 ** 3)`                                                                                           |
 | 6            | The result of the following division: 1 / 1                                                     | is equal to 1.0    | `print(1 / 1)`                                                                                             |
-| 7            | Which of the following statements are true? (Select two answers)                                | The ** operator uses right-sided binding, The right argument of the % operator cannot be zero | `print(2 ** 3)` `print(10 % 0)` |
+| 7            | Which of the following statements are true? (Select two answers)                                | The ** operator uses right-sided binding, The right argument of the % operator cannot be zero | `print(2 ** 3)`<br>`print(10 % 0)` |
 | 8            | Left-sided binding determines that the result of the following expression: 1 // 2 * 3          | is equal to 0      | `print(1 // 2 * 3)`                                                                                       |
-| 9            | Which of the following variable names are illegal? (Select two answers)                         | True, and          | `True = 5`, `and = 6`                                                                                     |
+| 9            | Which of the following variable names are illegal? (Select two answers)                         | True, and          | `True = 5`<br>`and = 6`                                                                                     |
 | 10           | The print() function can output values of:                                                      | any number of arguments (including zero) | `print("Hello", "World")`                                                                 |
 | 11           | What is the output of the following snippet?                                                     | 2 1                | ```python\nx = 1\ny = 2\nz = x\nx = y\ny = z\nprint(x, y)``` |
 | 12           | What is the output of the following snippet if the user enters two lines containing 2 and 4?    | 24                 | ```python\nx = input()\ny = input()\nprint(x + y)```                                                     |
@@ -528,3 +528,4 @@ Operator precedence determines the order in which operations are performed in an
 
 ```python
 x = 2 + 3 * 4 ** 2 // 3  # Order of operations is important
+
