@@ -254,9 +254,43 @@ print(a, b, c, d, e, f)
 // output
 0 5 -5 1 1 16
 
-
+// Note : explaination this answer you will get below code
 ```
 
+
+
+# Bitwise Operator Example in Python
+
+This README explains the results of various bitwise operations in Python with variables `x = 4` and `y = 1`.
+
+## 🔢 Variable Assignments
+
+| Variable | Operation     | Description                                                                                     | Binary Involved         | Result |
+|----------|----------------|-------------------------------------------------------------------------------------------------|--------------------------|--------|
+| a        | `x & y`        | Bitwise AND: Only 1 if both bits are 1.                                                         | `0100 & 0001 = 0000`     | 0      |
+| b        | `x | y`        | Bitwise OR: 1 if at least one of the bits is 1.                                                 | `0100 | 0001 = 0101`     | 5      |
+| c        | `~x`           | Bitwise NOT: Inverts the bits and returns `-x - 1` (two's complement).                          | `~0100 = -0101`          | -5     |
+| d        | `x ^ 5`        | Bitwise XOR: 1 if bits are different.                                                           | `0100 ^ 0101 = 0001`     | 1      |
+| e        | `x >> 2`       | Right shift by 2: Moves bits 2 places to the right.                                             | `0100 >> 2 = 0001`       | 1      |
+| f        | `x << 2`       | Left shift by 2: Moves bits 2 places to the left.                                               | `0100 << 2 = 10000`      | 16     |
+
+## 🧠 Explanation of Bitwise NOT (`~x`)
+
+Python uses two's complement to represent negative numbers. For `x = 4`:
+
+- Binary of 4: `00000100`
+- Inverting bits: `11111011`
+- This is `-5` in two's complement representation.
+
+So, `~4 = -5`
+
+## ⚙️ Operator Precedence in Python
+
+Operator precedence determines the order in which operations are performed. Bitwise operators have lower precedence than arithmetic operators but higher than comparison operators.
+
+### Example:
+```python
+result = 5 + 2 << 1  # Equivalent to: (5 + 2) << 1
 
 
 
