@@ -132,8 +132,79 @@ else:
 
 // output
 else: 111
+
+
+
+3)
+n = range(4)
+ 
+for num in n:
+    print(num - 1)
+else:
+    print(num)
+
+// output
+-1
+0
+1
+2
+3
+
+
+4)
+for i in range(0, 6, 3):
+    print(i)
+
+//output
+0
+3
+
 ```
 
+
+
+## 3.3 section
+```
+1)
+log = i and j
+
+
+// output
+log: True
+
+
+```
+
+
+
+
+### 
+```
+1)
+var = 17
+var_right = var >> 1
+var_left = var << 2
+print(var, var_left, var_right)
+
+
+// output
+17 68 8
+
+
+Note:
+
+17 >> 1 → 17 // 2 (17 floor-divided by 2 to the power of 1) → 8 (shifting to the right by one bit is the same as integer division by two)
+17 << 2 → 17 * 4 (17 multiplied by 2 to the power of 2) → 68 (shifting to the left by two bits is the same as integer multiplication by four)
+
+
+
+
+2)
+
+
+//output
+
+```
 
 
 
