@@ -178,7 +178,17 @@ log: True
 
 
 
-### 
+### 3.3.4 Bitwise operators
+
+```
+& (ampersand) ‒ bitwise conjunction;
+| (bar) ‒ bitwise disjunction;
+~ (tilde) ‒ bitwise negation;
+^ (caret) ‒ bitwise exclusive or (xor).
+```
+
+
+### Imp Programmer
 ```
 1)
 var = 17
