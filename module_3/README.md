@@ -306,6 +306,49 @@ print(numbers[-1])
 // output
 1
 
+
+2)
+numbers = [111, 7, 2, 1]
+print(numbers[-2])
+
+// output
+2
+
+
+
+
+3)
+numbers = [111, 7, 2, 1]
+print(len(numbers))
+print(numbers)
+numbers.append(4)
+
+print(len(numbers))
+print(numbers)
+numbers.insert(0, 222)
+print(len(numbers))
+print(numbers)
+
+// output
+4
+[111, 7, 2, 1]
+5
+[111, 7, 2, 1, 4]
+6
+[222, 111, 7, 2, 1, 4]
+
+
+
+4)
+my_list = []  # Creating an empty list.
+
+for i in range(5):
+    my_list.insert(0, i + 1)
+
+print(my_list)
+
+// output
+[5, 4, 3, 2, 1]
 ```
 
 
