@@ -53,6 +53,13 @@ for i in range(1, 1):
 
 // Note :-
 the range()'s second argument must be greater than the first.
+
+
+3)
+for i in range(2, 1):
+    print("The value of i is currently", i)
+ 
+// no oxecute
 ```
 
 
