@@ -502,7 +502,31 @@ print(list_3)
 
 
 
+### advanced list
+```
+1)
+squares = [x ** 2 for x in range(10)]
 
+// output
+ (0, 1, 4, 9, 16, 25, 36, 49, 64, 81)
+
+
+
+2)
+odds = [x for x in [1,2,3,4,5,6,7,8] if x % 2 != 0 ]
+
+// output
+[1, 3, 5, 7]
+
+
+
+
+Note :-
+1)
+List comprehension allows you to create new lists from existing ones in a concise and elegant way. The syntax of a list comprehension looks as follows:
+[expression for element in list if conditional]
+
+```
 
 
 
