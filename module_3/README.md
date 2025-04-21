@@ -289,8 +289,26 @@ So, `~4 = -5`
 Operator precedence determines the order in which operations are performed. Bitwise operators have lower precedence than arithmetic operators but higher than comparison operators.
 
 ### Example:
-```python
+```
+python
 result = 5 + 2 << 1  # Equivalent to: (5 + 2) << 1
+```
+
+
+
+
+## python list 
+```
+1)
+numbers = [111, 7, 2, 1]
+print(numbers[-1])
+
+// output
+1
+
+```
+
+
 
 
 
