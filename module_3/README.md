@@ -364,6 +364,19 @@ del my_list  # deletes the whole list
 
 
 
+### img quize
+```
+1)
+lst = []
+del lst
+print(lst)
+
+// output
+NameError: name 'lst' is not defined
+
+```
+
+
 
 
 
