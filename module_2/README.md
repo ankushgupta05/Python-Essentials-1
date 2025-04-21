@@ -484,3 +484,48 @@ Tu ekdum sahi soch raha hai — bas assignment wale case mein expression pehle e
 ```
 
 
+
+
+
+### module final 2  Python Quiz Questions and Answers
+
+| Question No. | Question                                                                                       | Answer             |
+|--------------|------------------------------------------------------------------------------------------------|--------------------|
+| 1            | The `\n` digraph forces the print() function to:                                                 | break the output line |
+| 2            | The meaning of the keyword parameter is determined by:                                          | the argument's name specified along with its value |
+| 3            | The value twenty point twelve times ten raised to the power of eight should be written as:       | 20.12E8            |
+| 4            | The 0o prefix means that the number after it is denoted as:                                     | octal              |
+| 5            | The ** operator:                                                                                | performs exponentiation |
+| 6            | The result of the following division: 1 / 1                                                     | is equal to 1.0    |
+| 7            | Which of the following statements are true? (Select two answers)                                | The ** operator uses right-sided binding, The right argument of the % operator cannot be zero |
+| 8            | Left-sided binding determines that the result of the following expression: 1 // 2 * 3          | is equal to 0      |
+| 9            | Which of the following variable names are illegal? (Select two answers)                         | True, and          |
+| 10           | The print() function can output values of:                                                      | any number of arguments (including zero) |
+| 11           | What is the output of the following snippet?                                                     | 24                 |
+| 12           | What is the output of the following snippet if the user enters two lines containing 2 and 4?    | 24                 |
+| 13           | What is the output of the following snippet if the user enters two lines containing 2 and 4?    | 8.0                |
+| 14           | What is the output of the following snippet?                                                     | the code will cause a runtime error |
+| 15           | What is the output of the following snippet?                                                     | 1                   |
+| 16           | What is the output of the following snippet if the user enters two lines containing 3 and 6?    | 333333             |
+| 17           | What is the output of the following snippet?                                                     | 1*1*1               |
+| 18           | What is the output of the following snippet?                                                     | the snippet will cause an execution error |
+| 19           | What is the output of the following snippet?                                                     | 17.5               |
+| 20           | What is the output of the following snippet if the user enters two lines containing 2 and 4?    | 6                   |
+
+---
+
+### Operator Precedence in Python
+
+Operator precedence determines the order in which operations are performed in an expression. The operators with higher precedence are evaluated first. Here's a basic order:
+
+1. **Exponentiation (`**`)**
+2. **Unary + and - (positive and negative)**
+3. **Multiplication, Division, Floor division, Modulus (`*`, `/`, `//`, `%`)**
+4. **Addition and Subtraction (`+`, `-`)**
+5. **Comparison operators (`==`, `!=`, `>`, `<`, `>=`, `<=`)**
+6. **Logical operators (`and`, `or`)**
+
+### Example:
+
+```python
+x = 2 + 3 * 4 ** 2 // 3  # Order of operations is important
