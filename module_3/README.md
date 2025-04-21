@@ -33,3 +33,36 @@ four
 five
 
 ```
+
+
+### img programe for loop
+```
+1)
+for i in range(2, 8, 3):
+    print("The value of i is currently", i)
+
+
+// output
+The value of i is currently 2
+The value of i is currently 5
+
+
+2)
+for i in range(1, 1):
+    print("The value of i is currently", i)
+
+// Note :-
+the range()'s second argument must be greater than the first.
+```
+
+
+
+
+
+
+
+
+
+
+
+
