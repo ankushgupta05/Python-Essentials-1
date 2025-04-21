@@ -392,6 +392,49 @@ print(lst)
 ```
 
 
+### very imp programme
+```
+1)
+list_1 = [1]
+list_2 = list_1
+list_1[0] = 2
+print(list_2)
+
+// output
+[2]
+
+
+
+2)
+list_1 = [1]
+list_2 = list_1[:]
+list_1[0] = 2
+print(list_2)
+
+// output
+[1]
+
+
+
+3)
+my_list = [10, 8, 6, 4, 2]
+new_list = my_list[1:-1]
+print(new_list)
+
+//output
+[8, 6, 4]
+
+
+4)
+my_list = [10, 8, 6, 4, 2]
+new_list = my_list[-1:1]
+print(new_list)
+
+// output
+[]
+```
+
+
 
 
 
