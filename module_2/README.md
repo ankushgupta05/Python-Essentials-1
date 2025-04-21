@@ -475,4 +475,12 @@ _Note: These rules also apply to function names._
 
 
 
+### img concept
+```
+Toh confusion sirf itna hai:
+a / 2 * b → left to right → answer is 9.0
+a /= 2 * b → first 2 * b, then divide → answer is 1.0
+Tu ekdum sahi soch raha hai — bas assignment wale case mein expression pehle evaluate hota hai.
+```
+
 
