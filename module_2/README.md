@@ -452,7 +452,7 @@ print((2 % -4), (2 % 4), (2 ** 3 ** 2))
 
 
 
-
+```
 
 
 ## Python Variable Naming Rules
@@ -471,8 +471,6 @@ print((2 % -4), (2 % 4), (2 ** 3 ** 2))
 
 _Note: These rules also apply to function names._
 
-
-```
 
 
 
