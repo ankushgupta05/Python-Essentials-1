@@ -102,6 +102,38 @@ Inside the loop. 5
 Outside the loop.
 ```
 
+### else in for ,while loop
+```
+1)
+for i in range(5):
+    print(i)
+else:
+    print("else:", i)
+
+// output
+0
+1
+2
+3
+4
+else: 4
+
+
+
+
+
+
+2)
+i = 111
+for i in range(2, 1):
+    print(i)
+else:
+    print("else:", i)
+
+// output
+else: 111
+```
+
 
 
 
