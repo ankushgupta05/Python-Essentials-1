@@ -451,6 +451,27 @@ print((2 % -4), (2 % 4), (2 ** 3 ** 2))
 
 
 
+
+
+
+
+## Python Variable Naming Rules
+
+| Rule No. | Rule Description                                                                 |
+|----------|----------------------------------------------------------------------------------|
+| 1        | Can contain **letters (A-Z, a-z)**, **digits (0-9)**, and **underscores (_) only**. |
+| 2        | Must **begin with a letter** or underscore (`_`). Cannot start with a digit.     |
+| 3        | **Underscore (`_`) is considered a letter** in Python.                          |
+| 4        | Variable names are **case-sensitive** (`name` and `Name` are different).         |
+| 5        | Cannot use **Python reserved keywords** (e.g., `if`, `for`, `while`, `class`).   |
+| 6        | No limit on length, but use **meaningful and concise names** for readability.    |
+
+> ✅ Valid Example: `user_name`, `UserAge1`, `_privateVar`  
+> ❌ Invalid Example: `1name`, `for`, `user-name`
+
+_Note: These rules also apply to function names._
+
+
 ```
 
 
