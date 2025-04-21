@@ -432,6 +432,16 @@ print(new_list)
 
 // output
 []
+
+
+
+5)
+my_list = [10, 8, 6, 4, 2]
+del my_list[1:3]
+print(my_list)
+
+// output
+[10, 4, 2]
 ```
 
 
