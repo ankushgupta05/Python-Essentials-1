@@ -229,7 +229,36 @@ Print #4: [3]
 Print #5: [3]
 ```
 
+### img programme
+```
+1)
+tuple_1 = (1, 2, 4, 8)
+tuple_2 = 1., .5, .25, .125
 
+print(tuple_1)
+print(tuple_2)
+
+// output
+(1, 2, 4, 8)
+(1.0, 0.5, 0.25, 0.125)
+
+
+
+2)
+tuple_1 = 1, 2, 4, 8
+tuple_2 = 1., .5, .25, .125
+
+print(tuple_1)
+print(tuple_2)
+
+// output
+(1, 2, 4, 8)
+(1.0, 0.5, 0.25, 0.125)
+
+
+3)
+
+```
 
 
 
