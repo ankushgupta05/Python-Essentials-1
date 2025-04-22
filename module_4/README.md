@@ -48,11 +48,19 @@ adding(3, a = 1, b = 2)  // output :- TypeError: adding() got multiple values fo
 adding(4, 3, c = 2) 
 
 
+```
 
 
+### img quize in 4.2.7
+```
+1)
+def add_numbers(a, b=2, c):
+    print(a + b + c)
 
+add_numbers(a=1, c=3)
 
-
+// output :-
+adding(4, 3, c = 2) 
 
 
 
@@ -60,3 +68,4 @@ adding(4, 3, c = 2)
 
 
 ```
+
