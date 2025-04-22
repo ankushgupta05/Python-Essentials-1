@@ -312,6 +312,45 @@ print(empty_dictionary)
 {'cat': 'chat', 'dog': 'chien', 'horse': 'cheval'}
 {'boss': 5551234567, 'Suzy': 22657854310}
 {}
+
+
+
+
+6)
+d1 = {'Adam Smith': 'A', 'Judy Paxton': 'B+'}
+d2 = {'Mary Louis': 'A', 'Patrick White': 'C'}
+d3 = {}
+
+for item in (d1, d2):
+    # Write your code here.
+    print('d1 : ',d1)
+    print('d2 : ',d2)
+
+
+// output
+d1 :  {'Adam Smith': 'A', 'Judy Paxton': 'B+'}
+d2 :  {'Mary Louis': 'A', 'Patrick White': 'C'}
+d1 :  {'Adam Smith': 'A', 'Judy Paxton': 'B+'}
+d2 :  {'Mary Louis': 'A', 'Patrick White': 'C'}
+
+
+
+7)
+colors = {
+    "white": (255, 255, 255),
+    "grey": (128, 128, 128),
+    "red": (255, 0, 0),
+    "green": (0, 128, 0)
+    }
+
+for col, rgb in colors.items():
+    print(col, ":", rgb)
+
+// output
+white : (255, 255, 255)
+grey : (128, 128, 128)
+red : (255, 0, 0)
+green : (0, 128, 0)
 ```
 
 
