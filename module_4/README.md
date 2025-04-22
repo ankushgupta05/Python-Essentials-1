@@ -122,3 +122,86 @@ add_numbers(a=1, c=4)  # Output: 7
 
 ```
 
+
+### Quize in 4.4.1
+```
+1)
+def scope_test():
+    x = 123
+
+
+scope_test()
+print(x)
+
+
+// output
+NameError: name 'x' is not defined
+
+
+2)
+def my_function():
+    print("Do I know that variable?", var)
+
+
+var = 1
+my_function()
+print(var)
+
+// output
+Do I know that variable? 1
+1
+
+
+
+3)
+def my_function():
+    var = 2
+    print("Do I know that variable?", var)
+ 
+ 
+var = 1
+my_function()
+print(var)
+
+// output
+Do I know that variable? 2
+1
+
+
+
+4)
+def my_function():
+    global var
+    var = 2
+    print("Do I know that variable?", var)
+
+
+var = 1
+my_function()
+print(var)
+
+// output
+Do I know that variable? 2
+2
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
