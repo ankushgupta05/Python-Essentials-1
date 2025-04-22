@@ -295,6 +295,23 @@ print(len(t1), len(t2), len(t3))
 // output
 (2,) (3, 123) (1,)
 1 2 1
+
+
+
+
+5)
+dictionary = {"cat": "chat", "dog": "chien", "horse": "cheval"}
+phone_numbers = {'boss': 5551234567, 'Suzy': 22657854310}
+empty_dictionary = {}
+
+print(dictionary)
+print(phone_numbers)
+print(empty_dictionary)
+
+// output
+{'cat': 'chat', 'dog': 'chien', 'horse': 'cheval'}
+{'boss': 5551234567, 'Suzy': 22657854310}
+{}
 ```
 
 
