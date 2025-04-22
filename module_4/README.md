@@ -426,6 +426,32 @@ TypeError
 
 
 
+# Explanation of Handling Multiple Exceptions in Python
+
+This section explains different ways to handle multiple exceptions in Python. Each snippet has been explained with a simple example.
+
+---
+
+| **Snippet** | **Explanation** | **Example Code** |
+|-------------|-----------------|------------------|
+| **A** | This is the correct way to handle multiple exceptions in Python. You can group multiple exceptions inside a tuple in a single `except` block. | ```python try: <br> x = 1 / 0 <br> except (TypeError, ValueError, ZeroDivisionError): <br> print("Caught an exception!") ``` |
+| **B** | This is incorrect syntax. You cannot separate exceptions with commas in the `except` clause. This will raise a `SyntaxError`. | ```python try: <br> x = 1 / 0 <br> except TypeError, ValueError, ZeroDivisionError: <br> print("Caught an exception!") ``` |
+| **C** | This is also incorrect. The `except` block does not work with a condition like this. It will raise a `SyntaxError`. | ```python try: <br> x = 1 / 0 <br> except: (TypeError, ValueError, ZeroDivisionError) <br> print("Caught an exception!") ``` |
+| **D** | This is incorrect. The `except` block cannot be followed by a condition like this. It will result in a `SyntaxError`. | ```python try: <br> x = 1 / 0 <br> except: TypeError, ValueError, ZeroDivisionError <br> print("Caught an exception!") ``` |
+| **E** | This is the correct way to handle multiple exceptions (similar to Snippet A). It groups exceptions inside a tuple. | ```python try: <br> x = 1 / 0 <br> except (TypeError, ValueError, ZeroDivisionError): <br> print("Caught an exception!") ``` |
+| **F** | This is incorrect syntax. As in Snippet B, the exceptions are not grouped inside a tuple, so it will raise a `SyntaxError`. | ```python try: <br> x = 1 / 0 <br> except TypeError, ValueError, ZeroDivisionError: <br> print("Caught an exception!") ``` |
+
+---
+
+### Simple Example
+
+```python
+try:
+    x = 1 / 0  # This will raise ZeroDivisionError
+except (ZeroDivisionError, ValueError, TypeError):  # Correct way of handling multiple exceptions
+    print("An exception occurred!")
+
+
 
 
 
