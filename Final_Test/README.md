@@ -35,3 +35,39 @@ This document contains questions related to Python programming, their answers, a
 ---
 
 ### Continue for the remaining questions...
+
+
+
+
+
+
+
+
+
+
+
+# Python Programming Questions and Answers (Continued)
+
+This document contains additional Python programming questions, their answers, and explanations where applicable.
+
+---
+
+| **Question No** | **Question** | **Answer** | **Explanation** |
+|-----------------|--------------|------------|-----------------|
+| **26** | What is the output of the following snippet? <br> ```python tup = (1, 2, 4, 8) <br> tup = tup[-2:-1] <br> tup = tup[-1] <br> print(tup) ``` | **4** | The slice `tup[-2:-1]` creates a tuple `(4,)`, and `tup[-1]` extracts `4` from it. |
+| **27** | What is the output of the following snippet? <br> ```python dd = {"1": "0", "0": "1"} <br> for x in dd.vals(): <br> print(x, end="") ``` | **the code is erroneous (the dict object has no vals() method)** | Python dictionaries have a `values()` method, not `vals()`, so this will raise an error. |
+| **28** | What is the output of the following snippet? <br> ```python dct = {} <br> dct['1'] = (1, 2) <br> dct['2'] = (2, 1) <br> for x in dct.keys(): <br> print(dct[x][1], end="") ``` | **21** | The code prints the second element of each tuple in the dictionary: `dct['1'][1]` and `dct['2'][1]`, which are `2` and `1` respectively. |
+| **29** | What is the output of the following snippet? <br> ```python def fun(inp=2, out=3): <br> return inp * out <br> print(fun(out=2)) ``` | **4** | The function is called with `out=2`, and the default value of `inp=2` is used. The result is `2 * 2 = 4`. |
+| **30** | How many hashes (#) will the following snippet send to the console? <br> ```python lst = [[x for x in range(3)] for y in range(3)] <br> for r in range(3): <br> for c in range(3): <br> if lst[r][c] % 2 != 0: <br> print("#") ``` | **six** | The `if` condition checks for odd numbers, and there are six odd numbers in the list. |
+| **31** | What is the output of the following code if the user enters a 0? <br> ```python try: <br> value = input("Enter a value: ") <br> print(int(value)/len(value)) <br> except ValueError: <br> print("Bad input...") <br> except ZeroDivisionError: <br> print("Very bad input...") <br> except TypeError: <br> print("Very very bad input...") <br> except: <br> print("Booo!") ``` | **Very bad input...** | Dividing by the length of `value` when the input is "0" causes a `ZeroDivisionError`. |
+| **32** | What is the expected behavior of the following program? <br> ```python try: <br> print(5/0) <br> break <br> except: <br> print("Sorry, something went wrong...") <br> except (ValueError, ZeroDivisionError): <br> print("Too bad...") ``` | **The program will cause a ZeroDivisionError exception and output the following message: Too bad...** | The program attempts to divide by zero, causing `ZeroDivisionError`, and the `except` block for that exception will handle it. |
+| **33** | What is the expected behavior of the following program? <br> ```python foo = (1, 2, 3) <br> foo.index(0) ``` | **The program will cause a ValueError exception.** | The `index` method will raise a `ValueError` because `0` is not in the tuple. |
+| **34** | Which of the following snippets shows the correct way of handling multiple exceptions in a single except clause? <br> ```python # A: <br> except (TypeError, ValueError, ZeroDivisionError): <br> # Some code. <br> # B: <br> except TypeError, ValueError, ZeroDivisionError: <br> # Some code. <br> # C: <br> except: (TypeError, ValueError, ZeroDivisionError) <br> # Some code. <br> # D: <br> except: TypeError, ValueError, ZeroDivisionError <br> # Some code. <br> # E: <br> except (TypeError, ValueError, ZeroDivisionError) <br> # Some code. <br> # F: <br> except TypeError, ValueError, ZeroDivisionError <br> # Some code. ``` | **A only** | `A` correctly handles multiple exceptions by specifying them in a tuple. |
+| **35** | What will happen when you attempt to run the following code? <br> ```python print(Hello, World!) ``` | **The code will raise the SyntaxError exception.** | The string `"Hello, World!"` is not enclosed in quotes, so it will raise a `SyntaxError`. |
+
+---
+
+This concludes the table of Python programming questions, answers, and explanations.
+
+Feel free to modify or use this file as needed in your projects!
+
