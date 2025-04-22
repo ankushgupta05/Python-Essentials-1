@@ -257,7 +257,24 @@ print(tuple_2)
 
 
 3)
+my_tuple = (1, 10, 100)
 
+t1 = my_tuple + (1000, 10000)
+t2 = my_tuple * 3
+
+print(len(t2))
+print(t1)
+print(t2)
+print(10 in my_tuple)
+print(-10 not in my_tuple)
+
+
+// output
+9
+(1, 10, 100, 1000, 10000)
+(1, 10, 100, 1, 10, 100, 1, 10, 100)
+True
+True
 ```
 
 
