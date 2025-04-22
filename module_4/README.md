@@ -387,128 +387,39 @@ TypeError
 
 
 
+# Questions, Answers, and Explanations
 
-# Preparing the README content
-questions_answers = [
-    {
-        "question": "Which one of the following lines properly starts a parameterless function definition?",
-        "code": "def fun():",
-        "answer": "def fun():",
-        "explanation": "The correct syntax for starting a parameterless function definition in Python is 'def fun():'."
-    },
-    {
-        "question": "A function defined in the following way: def function(x=0): return x. May be invoked with exactly one argument or may be invoked without any argument.",
-        "code": "def function(x=0): return x",
-        "answer": "may be invoked with exactly one argument, may be invoked without any argument",
-        "explanation": "The function has a default value for 'x', so it can be called with or without an argument."
-    },
-    {
-        "question": "A built-in function is a function which:",
-        "code": "have not code",
-        "answer": "comes with Python, and is an integral part of Python",
-        "explanation": "A built-in function is part of Python and doesn't need to be imported."
-    },
-    {
-        "question": "The fact that tuples belong to sequence types means that:",
-        "code": "have not code",
-        "answer": "they can be indexed and sliced like lists",
-        "explanation": "Tuples are similar to lists in terms of indexing and slicing, but unlike lists, tuples are immutable."
-    },
-    {
-        "question": "What is the output of the following snippet? def f(x): if x == 0: return 0 return x + f(x - 1) print(f(3))",
-        "code": "def f(x): if x == 0: return 0 return x + f(x - 1) print(f(3))",
-        "answer": "6",
-        "explanation": "The function calculates the sum of numbers from 3 to 0, resulting in 6."
-    },
-    {
-        "question": "What is the output of the following snippet? def fun(x): x += 1 return x x = 2 x = fun(x + 1) print(x)",
-        "code": "def fun(x): x += 1 return x x = 2 x = fun(x + 1) print(x)",
-        "answer": "5",
-        "explanation": "The function increments the value of 'x', and the final value of 'x' is 5."
-    },
-    {
-        "question": "What code would you insert instead of the comment to obtain the expected output?",
-        "code": "dictionary = {}; my_list = ['a', 'b', 'c', 'd'] for i in range(len(my_list) - 1): dictionary[my_list[i]] = (my_list[i], ) for i in sorted(dictionary.keys()): k = dictionary[i] # Insert your code here.",
-        "answer": "print(k[0])",
-        "explanation": "You need to print the first element of the tuple in the dictionary."
-    },
-    {
-        "question": "The following snippet: def func(a, b): return a ** a print(func(2))",
-        "code": "def func(a, b): return a ** a print(func(2))",
-        "answer": "is erroneous",
-        "explanation": "The function requires two arguments, but only one is provided."
-    },
-    {
-        "question": "The following snippet: def func_1(a): return a ** a def func_2(a): return func_1(a) * func_1(a) print(func_2(2))",
-        "code": "def func_1(a): return a ** a def func_2(a): return func_1(a) * func_1(a) print(func_2(2))",
-        "answer": "will output 16",
-        "explanation": "The function calculates 2 raised to the power of 2 and then squares the result (4 * 4)."
-    },
-    {
-        "question": "Which of the following lines properly starts a function using two parameters, both with zeroed default values?",
-        "code": "def fun(a=0, b=0):",
-        "answer": "def fun(a=0, b=0):",
-        "explanation": "This is the correct syntax for defining a function with two parameters that both have default values of 0."
-    },
-    {
-        "question": "Which of the following statements are true? (Select two answers)",
-        "code": "have not code",
-        "answer": "The None value can be compared with variables, The None value can be assigned to variables",
-        "explanation": "None can be assigned to variables and compared with other variables in Python."
-    },
-    {
-        "question": "What is the output of the following snippet? def fun(x): if x % 2 == 0: return 1 else: return print(fun(fun(2)) + 1)",
-        "code": "def fun(x): if x % 2 == 0: return 1 else: return print(fun(fun(2)) + 1)",
-        "answer": "2",
-        "explanation": "The first call to 'fun(2)' returns 1, then 'fun(1)' returns None, resulting in 'None + 1' causing an error."
-    },
-    {
-        "question": "What is the output of the following snippet? def fun(x): global y y = x * x return y fun(2) print(y)",
-        "code": "def fun(x): global y y = x * x return y fun(2) print(y)",
-        "answer": "4",
-        "explanation": "The function assigns the square of 2 to the global variable 'y', which is then printed."
-    },
-    {
-        "question": "What is the output of the following snippet? def any(): print(var + 1, end='') var = 1 any() print(var)",
-        "code": "def any(): print(var + 1, end='') var = 1 any() print(var)",
-        "answer": "11",
-        "explanation": "The value of 'var' is 1, so the first print statement outputs '2', followed by the second print statement outputting '1'."
-    },
-    {
-        "question": "Assuming that my_tuple is a correctly created tuple, the fact that tuples are immutable means that the following instruction: my_tuple[1] = my_tuple[1] + my_tuple[0]",
-        "code": "have not code",
-        "answer": "is illegal",
-        "explanation": "Tuples are immutable, so you cannot modify their elements after creation."
-    },
-    {
-        "question": "What is the output of the following snippet? my_list = ['Mary', 'had', 'a', 'little', 'lamb'] def my_list(my_list): del my_list[3] my_list[3] = 'ram' print(my_list(my_list))",
-        "code": "my_list = ['Mary', 'had', 'a', 'little', 'lamb'] def my_list(my_list): del my_list[3] my_list[3] = 'ram' print(my_list(my_list))",
-        "answer": "['Mary', 'had', 'a', 'ram']",
-        "explanation": "The function deletes the item at index 3 and replaces it with 'ram'."
-    },
-    {
-        "question": "What is the output of the following snippet? def fun(x, y, z): return x + 2 * y + 3 * z print(fun(0, z=1, y=3))",
-        "code": "def fun(x, y, z): return x + 2 * y + 3 * z print(fun(0, z=1, y=3))",
-        "answer": "9",
-        "explanation": "The function evaluates the expression x + 2 * y + 3 * z with the given arguments."
-    },
-    {
-        "question": "What is the output of the following code? dictionary = {'one': 'two', 'three': 'one', 'two': 'three'} v = dictionary['one'] for k in range(len(dictionary)): v = dictionary[v] print(v)",
-        "code": "dictionary = {'one': 'two', 'three': 'one', 'two': 'three'} v = dictionary['one'] for k in range(len(dictionary)): v = dictionary[v] print(v)",
-        "answer": "two",
-        "explanation": "The loop updates 'v' as it follows the dictionary's values and prints 'two'."
-    },
-    {
-        "question": "What is the output of the following code? tup = (1, 2, 4, 8) tup = tup[1:-1] tup = tup[0] print(tup)",
-        "code": "tup = (1, 2, 4, 8) tup = tup[1:-1] tup = tup[0] print(tup)",
-        "answer": "2",
-        "explanation": "The tuple is sliced and the first element of the resulting tuple is assigned to 'tup'."
-    },
-    {
-        "question": "What is the output of the following code? try: value = input('Enter a value: ') print(value/value) except ValueError: print('Bad input...') except ZeroDivisionError: print('Very bad input...') except TypeError: print('Very very bad input...') except: print('Booo!')",
-        "code": "have not code",
-        "answer": "Very very bad input...",
+| **Question** | **Code** | **Answer** | **Explanation** |
+|--------------|----------|------------|-----------------|
+| **1) Which one of the following lines properly starts a parameterless function definition?** | ```python def fun(): ``` | `def fun():` | This is the correct syntax for defining a function without parameters. |
+| **2) A function defined in the following way: `def function(x=0): return x`. May be invoked with exactly one argument or may be invoked without any argument.** | ```python def function(x=0): return x ``` | `may be invoked with exactly one argument, may be invoked without any argument` | The function has a default value for 'x', so it can be called with or without an argument. |
+| **3) A built-in function is a function which:** | ```python # have not code ``` | `comes with Python, and is an integral part of Python` | A built-in function is part of Python and doesn't need to be imported. |
+| **4) The fact that tuples belong to sequence types means that:** | ```python # have not code ``` | `they can be indexed and sliced like lists` | Tuples can be indexed and sliced like lists, but they are immutable. |
+| **5) What is the output of the following snippet?** | ```python def f(x): if x == 0: return 0 return x + f(x - 1) print(f(3)) ``` | `6` | The function calculates the sum of numbers from 3 to 0, resulting in 6. |
+| **6) What is the output of the following snippet?** | ```python def fun(x): x += 1 return x x = 2 x = fun(x + 1) print(x) ``` | `5` | The function increments 'x', and the final value of 'x' is 5. |
+| **7) What code would you insert instead of the comment to obtain the expected output?** | ```python dictionary = {} my_list = ['a', 'b', 'c', 'd'] for i in range(len(my_list) - 1): dictionary[my_list[i]] = (my_list[i], ) for i in sorted(dictionary.keys()): k = dictionary[i] # Insert your code here. ``` | `print(k[0])` | You need to print the first element of the tuple in the dictionary. |
+| **8) The following snippet is erroneous:** | ```python def func(a, b): return a ** a print(func(2)) ``` | `is erroneous` | The function requires two arguments, but only one is provided. |
+| **9) The following snippet will output 16:** | ```python def func_1(a): return a ** a def func_2(a): return func_1(a) * func_1(a) print(func_2(2)) ``` | `16` | The function calculates 2 raised to the power of 2 and then squares the result (4 * 4). |
+| **10) Which of the following lines properly starts a function using two parameters, both with zeroed default values?** | ```python def fun(a=0, b=0): ``` | `def fun(a=0, b=0):` | This is the correct syntax for defining a function with two parameters that both have default values of 0. |
+| **11) Which of the following statements are true? (Select two answers)** | ```python # have not code ``` | `The None value can be compared with variables, The None value can be assigned to variables` | None can be assigned to variables and compared with other variables in Python. |
+| **12) What is the output of the following snippet?** | ```python def fun(x): if x % 2 == 0: return 1 else: return print(fun(fun(2)) + 1) ``` | `2` | The first call to 'fun(2)' returns 1, then 'fun(1)' returns None, resulting in 'None + 1' causing an error. |
+| **13) What is the output of the following snippet?** | ```python def fun(x): global y y = x * x return y fun(2) print(y) ``` | `4` | The function assigns the square of 2 to the global variable 'y', which is then printed. |
+| **14) What is the output of the following snippet?** | ```python def any(): print(var + 1, end='') var = 1 any() print(var) ``` | `11` | The value of 'var' is 1, so the first print statement outputs '2', followed by the second print statement outputting '1'. |
+| **15) Assuming that my_tuple is a correctly created tuple, the fact that tuples are immutable means that the following instruction:** | ```python my_tuple[1] = my_tuple[1] + my_tuple[0] ``` | `is illegal` | Tuples are immutable, so you cannot modify their elements after creation. |
+| **16) What is the output of the following snippet?** | ```python my_list = ['Mary', 'had', 'a', 'little', 'lamb'] def my_list(my_list): del my_list[3] my_list[3] = 'ram' print(my_list(my_list)) ``` | `['Mary', 'had', 'a', 'ram']` | The function deletes the item at index 3 and replaces it with 'ram'. |
+| **17) What is the output of the following snippet?** | ```python def fun(x, y, z): return x + 2 * y + 3 * z print(fun(0, z=1, y=3)) ``` | `9` | The function evaluates the expression `x + 2 * y + 3 * z` with the given arguments. |
+| **18) What is the output of the following code?** | ```python dictionary = {'one': 'two', 'three': 'one', 'two': 'three'} v = dictionary['one'] for k in range(len(dictionary)): v = dictionary[v] print(v) ``` | `two` | The loop updates 'v' as it follows the dictionary's values and prints 'two'. |
+| **19) What is the output of the following code?** | ```python tup = (1, 2, 4, 8) tup = tup[1:-1] tup = tup[0] print(tup) ``` | `2` | The tuple is sliced and the first element of the resulting tuple is assigned to 'tup'. |
+| **20) What is the output of the following code?** | ```python try: value = int(input("Enter a value: ")) print(value/value) except ValueError: print("Bad input...") except ZeroDivisionError: print("Very bad input...") except: print("Booo!") ``` | `Very bad input...` | The exception handling will catch the ZeroDivisionError and print "Very bad input..." if you try dividing by zero. |
 
+---
+
+### Exception Handling in Python
+
+| **Example** | **Code** | **Output** |
+|-------------|----------|------------|
+| **1) Handling ValueError and ZeroDivisionError** | ```python try: value = int(input("Enter a value: ")) print(value/value) except ValueError: print("Bad input...") except ZeroDivisionError: print("Very bad input...") except: print("Booo!") ``` | `Very bad input...` |
+| **2) TypeError when performing unsupported operation** | ```python value = input("Enter a value: ") print(10/value) ``` | `TypeError` |
 
 
 
