@@ -275,6 +275,26 @@ print(-10 not in my_tuple)
 (1, 10, 100, 1, 10, 100, 1, 10, 100)
 True
 True
+
+
+
+
+4)
+var = 123
+
+t1 = (1, )
+t2 = (2, )
+t3 = (3, var)
+
+t1, t2, t3 = t2, t3, t1
+
+print(t1, t2, t3)
+print(len(t1), len(t2), len(t3))
+
+
+// output
+(2,) (3, 123) (1,)
+1 2 1
 ```
 
 
