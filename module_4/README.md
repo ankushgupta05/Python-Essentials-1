@@ -351,8 +351,37 @@ white : (255, 255, 255)
 grey : (128, 128, 128)
 red : (255, 0, 0)
 green : (0, 128, 0)
+
+
 ```
 
+
+### Exception in python
+```
+1)
+try:
+    value = int(input("Enter a value: "))
+    print(value/value)
+except ValueError:
+    print("Bad input...")
+except ZeroDivisionError:
+    print("Very bad input...")
+except:
+    print("Booo!")
+
+Very bad input...
+
+
+
+2)
+value = input("Enter a value: ")
+print(10/value)
+
+// output
+TypeError
+
+
+```
 
 
 
