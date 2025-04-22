@@ -97,9 +97,27 @@ subtra(5, b=2)    # outputs: 3
 subtra(a=5, 2)    # Syntax Error
 
 
+Note :- 
+def add_numbers(a, b=2, c):
+
+Isme dikkat yeh hai ki:
+b=2 ke paas default value hai (yaani agar koi value na de toh bhi chalega),
+par uske baad c aaya jiske paas default value nahi hai.
+Python ko yeh pasand nahi — uska rule hai:
+"Jinke paas value default se set nahi hai (zaroori hain), unhe pehle likho. Aur jinke paas default value hai (optional hain), unko baad mein rakho."
+
+// sahi formate niche hai
+
+def add_numbers(a, c, b=2):  # ✔️ sahi order
+    print(a + b + c)
+
+add_numbers(a=1, c=3)  # Output: 6
 
 
+def add_numbers(a, b=2, c=3):  # ✔️ sabke paas default hai
+    print(a + b + c)
 
+add_numbers(a=1, c=4)  # Output: 7
 
 
 ```
