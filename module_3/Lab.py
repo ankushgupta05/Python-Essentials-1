@@ -220,3 +220,23 @@ print('steps = ',i)
 
 
 
+
+
+
+
+
+Q3 )
+3.5.2 Sortingby bubble sort
+
+// code
+my_list = [12,34,2,6,23]
+swape = True
+print(my_list)
+while(swape):
+    swape = False
+    for i in range(len(my_list)-1):
+        if my_list[i] > my_list[i+1]:
+            swape = True
+            my_list[i] , my_list[i+1] = my_list[i+1] , my_list[i]
+
+print(my_list)
