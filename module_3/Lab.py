@@ -240,3 +240,37 @@ while(swape):
             my_list[i] , my_list[i+1] = my_list[i+1] , my_list[i]
 
 print(my_list)
+
+
+
+
+
+
+
+
+
+Q 4) 
+
+3.6.6 remove duplicate elements
+
+// code
+
+// 1st method to solve
+my_list = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
+my_list = list(set(my_list))
+print("The list with unique elements only:")
+print(my_list)
+
+
+
+// 2nd method to sollve
+my_list = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
+#
+# Write your code here.
+res = []
+
+for i in my_list:
+    if i not in res:
+        res.append(i)
+
+print(res)
