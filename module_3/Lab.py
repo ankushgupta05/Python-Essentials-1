@@ -37,7 +37,7 @@ Expected output:
 The height of the pyramid: 1
 
 
-// code
+// code by me
 blocks = int(input("Enter the number of blocks: "))
 
 # Write your code here.
@@ -55,3 +55,17 @@ else:
 
 print("The height of the pyramid:", i-1)
 
+
+
+// code by chatgpt
+blocks = int(input("Enter the number of blocks: "))
+height = 0
+used_blocks = 0
+next_layer = 1
+
+while used_blocks + next_layer <= blocks:
+    used_blocks += next_layer
+    height += 1
+    next_layer += 1
+
+print("The height of the pyramid:", height)
